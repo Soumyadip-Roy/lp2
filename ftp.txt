@@ -1,0 +1,21 @@
+file-> preferences-> network-> +
+settings -> network -> NatNetwork 
+
+
+login : vagrant
+password : vagrant 
+
+ifconfig
+
+echo "" > filename.txt
+OR
+touch filename.txt
+nano filename.txt
+ctrl x save
+
+cat filename.txt
+
+scp filename.txt vagrant@recIP:/home/vagrant
+
+--------------
+sudo ifconfig eth0 newIP
