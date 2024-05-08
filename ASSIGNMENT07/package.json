@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "crud operation using express, mongodb",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "author": "code with arjun",
   "license": "ISC",
