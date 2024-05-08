@@ -8,8 +8,8 @@ import {
 
 const route = express.Router();
 
-route.get("/all", fetch);
 route.post("/create", create);
+route.get("/all", fetch);
 route.put("/update/:id", update);
 route.delete("/delete/:id", deleteUser);
 
