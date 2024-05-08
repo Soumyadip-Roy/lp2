@@ -1,5 +1,10 @@
 window.onload = function () {
   displayUserData();
+  document
+    .getElementById("generateRandomUserBtn")
+    .addEventListener("click", function () {
+      fetchRandomUserDataAndRedirect();
+    });
 };
 
 function displayUserData() {
@@ -14,5 +19,5 @@ function displayUserData() {
 
 document.getElementById("removeBtn").addEventListener("click", function () {
   localStorage.removeItem("usersData"); // Clear user data from local storage
-  window.location.href = "register.html"; // Redirect to the register page
+  window.location.href = "userlist.html"; // Redirect to the register page
 });
