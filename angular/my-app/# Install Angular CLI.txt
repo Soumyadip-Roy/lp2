@@ -10,6 +10,13 @@ npm install
 # Start the app
 ng serve --open
 
+-------------------
+
+ng new my-angular-project
+
+cd my-angular-project
+
+
 
 
 
