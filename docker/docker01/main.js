@@ -1,1 +1,1 @@
-console.log("Madhar Chod");
+console.log("LP 2 Practical");
