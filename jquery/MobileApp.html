@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OCC App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/custom_style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+
+	<div data-role="page" id="home" >
+		<div data-role="header" data-theme="b">
+			<h1>Channel App</h1>
+			<a href="#videos" class="ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-right ui-btn-icon-notext ui-corner-all">Next</a>
+		</div>
+
+		<div data-role="content">
+			<h1 id="showcase_title">Oston Code Cypher Channel</h1>
+			<hr>
+			<div class="ui-grid-a">
+				<div class="ui-block-a">
+					<img src="pics/oston.jpg" id="homepic" class="animated slideInDown">
+				</div>
+
+				<div class="ui-block-b animated slideInUp">
+					<h4 style="text-align: center;">WELCOME TO MY CHANNEL APP</h4>
+					<h5>Follow me on:</h5>
+					<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Facebook</a>
+					<a href="" class="ui-btn ui-btn-mini ui-btn-b ui-btn-inline" data-theme="b">Twitter</a>
+
+				</div>
+
+			</div>
+			<br>
+			
+			<ul data-role="listview" data-inset="true"  data-theme="b">
+				<li data-icon="shop"><a href="#">Shop Now</a></li>
+				<li data-icon="phone"><a href="#">Call Me</a></li>
+			</ul>
+			
+			<br>
+		</div>
+
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-iconpos="left">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#videos" data-icon="grid">Videos</a></li>
+					<li><a href="#About" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+<!---The video panel page -->
+	<div data-role="page" id="videos" >
+
+		<div data-role="header" data-theme="b">
+			<h1>Videos</h1>
+			<a href="#About" class="ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-right ui-btn-icon-notext ui-corner-all">next</a>
+
+			<a href="#home" title="Back" class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-left ui-btn-icon-notext ui-corner-all">back</a>
+		</div>
+
+		<div data-role="content"  >
+			<h1>Channel Videos</h1>
+			<ul data-role="listview"  data-filter="true"  data-filter-placeholder="search it....Get it" class="animated slideInLeft" id="vid_list">
+				<li><a href=""><img src="pics/html2.png">HTML
+					<p>The language used to create webpages</p>
+					<p>It's very easy to learn</p>
+					
+				</a>
+				</li>
+
+				<li><a href=""><img src="pics/css.png">CSS
+					<p>The language used to design webpages</p>
+					<p>It's very easy to learn</p>
+					
+				</a>
+				</li>
+
+				<li><a href=""><img src="pics/javascript.png">JAVASCRIPT
+					<p>The language used to make webpages dynamic.</p>
+					<p>It's very easy to learn</p>
+					
+				</a>
+				</li>
+
+				<li><a href=""><img src="pics/jquery.png">JQUERY
+					<p>The js library used to make javascript More easily to work with .</p>
+					<p>Write less,Do more</p>
+					<p>It's very easy to learn</p>
+					
+				</a>
+				</li>
+
+
+				<li><a href=""><img src="pics/jquery_UI.png">JQUERY UI
+					<p>The js library used to make User interface nice looking.Moreso easily to work with .</p>
+					<p>Write less,Do more</p>
+					<p>It's very easy to learn</p>
+					
+				</a></li>
+
+				<li><a href=""><img src="pics/bootstrap.png">BOOTSTRAP
+					<p>The html,css and javasript Framework used to create responsive websites.</p>
+					<p>It's very easy to learn</p>
+				
+				</a>
+				</li>
+
+				<li><a href=""><img src="pics/C prog.png">C PROGRAMMING
+					<p>The Language used to develop softwares and Operating systems .</p>
+					<p>It's very easy to learn</p>
+					
+				</a></li>
+				
+				<li><a href=""><img src="pics/windows.png">WINDOWS COMMANDLINE
+					<p>It's a windows program that allows the user to naviagte the computer without using a mouse .</p>
+					<p>It's very easy to learn</p>
+					</a></li>
+			</ul>
+			
+		</div>
+
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" data-iconpos="left">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#videos" data-icon="grid">Videos</a></li>
+					<li><a href="#About" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+<!-- About Page -->
+<div data-role="page" id="About">
+	
+	<div data-role="header" data-theme="b">
+		<h1>About Page</h1>
+		<a href="#videos" title="Back" class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-left ui-btn-icon-notext ui-corner-all">back</a>
+	</div>
+
+	<div data-role="content" class="animated bounce">
+		
+		<div data-role="collapsible">
+					<h1>About Me</h1>
+					<ul data-role="listview" class="animated slideInRight">
+						<li><a href="">Country: Uganda</a></li>
+						<li><a href="">Nationality: Ugandan</a></li>
+						<li><a href="">Gender: Male</a></li>
+						<div data-role="collapsible">
+							<h1>Eduaction Level</h1>
+							<p style="font-weight: 3000"> Degree in Computer Science</p>
+						</div>
+					</ul>
+		</div>
+
+		<div data-role="collapsible" >
+					<h1>About Channel</h1>
+					<ul data-role="listview">
+						<li>I teach how to Build Websites & Apps</li>
+						<li>I teach the in-demand web skills</li>
+						<li>Pricing:content is for free</li>
+						<li>Difficulty:It's very easy</li>
+					</ul>
+		</div>
+
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-theme="b">
+		<div data-role="navbar" data-iconpos="left">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#videos" data-icon="grid">Videos</a></li>
+					<li><a href="#About" data-icon="info">About</a></li>
+				</ul>
+			</div>
+	</div>
+
+</div>
+</body>
+</html>
