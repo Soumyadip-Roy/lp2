@@ -1,0 +1,18 @@
+cmd 
+docker build -t docker01  .
+
+docker pull openjdk
+docker run --name java -it -d openjdk 
+
+docker pull busybox
+docker run busybox
+
+
+docker ps
+docker exec -it java jshell
+>>>execute any java program 
+/exit 
+
+docker stop c_id
+docker container rm c_id
+docker image prune

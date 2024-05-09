@@ -1,7 +1,7 @@
 git config --global user.name "username"
 git config --global user.email "username@gmail.com"
 
-create access token 
+create access token settings->developers option -> 
 
 git remeote add origin https://[token]@github.com/username/reponame
 

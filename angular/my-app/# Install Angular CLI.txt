@@ -1,0 +1,16 @@
+# Install Angular CLI
+npm install -g @angular/cli
+
+# Move into dir
+cd my-app
+
+#Install node packages
+npm install
+
+# Start the app
+ng serve --open
+
+
+
+
+
